@@ -23,6 +23,7 @@ export class MenuPage extends HTMLElement {
     window.addEventListener("appMenuChange", () => {
       this.render();
     });
+    this.render();
   }
 
   render() {
@@ -48,4 +49,3 @@ export class MenuPage extends HTMLElement {
     }
   }
 }
-customElements.define("menu-page", MenuPage);
